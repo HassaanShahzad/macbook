@@ -614,7 +614,7 @@ right: 19px;
 
 
 
-
+/* New Code Start */
 
       .abc5 {
         border: 1px solid rgb(113, 114, 135);
@@ -734,7 +734,7 @@ right: 19px;
     font-weight: 500;
       color: white;
       text-align: left !important;
-      padding-left: 20px !important;
+   
    
     }
     .abc14 {
@@ -775,7 +775,7 @@ right: 19px;
     width: 100%;
     border-left: 0px !important;
     background-color: transparent !important;
-  
+
   }
   
   td, th {
@@ -786,12 +786,10 @@ right: 19px;
     text-align: left;
 
     color: white;
-  
+    padding: 5px !important;
    
   }
-  td {
-    padding-top: 0px !important;
-  }
+ 
   :target {
     background-color: #020535;
 
@@ -800,7 +798,9 @@ right: 19px;
   th {
   border-bottom: 1px solid #dddddd !important;
   }
-  
+  .a {
+    padding: 150px !important;
+  }
   tr:nth-child(even) {
   border-right:0px !important;
   background-color: transparent !important;
@@ -835,6 +835,12 @@ right:17px;
 
     .abc29 {
     border:1px solid #dddddd !important ;
+   
+    }
+    .abcd2 {
+ position: relative;
+ top: 22px;
+
     }
 
 .button-37 {
